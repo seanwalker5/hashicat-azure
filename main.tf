@@ -119,7 +119,7 @@ resource "azurerm_virtual_machine" "catapp" {
   }
 
   tags = {
-  Name = ${var.prefix}"-hashicat-instance"
+  Name = "${var.prefix}-hashicat-instance"
   Billable = "true"
   Department = "devops"
   }
